@@ -1,0 +1,23 @@
+{
+  "name": "css-gate-cloning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thicien/CSS-gate-cloning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thicien/CSS-gate-cloning/issues"
+  },
+  "homepage": "https://github.com/thicien/CSS-gate-cloning#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  }
+}
